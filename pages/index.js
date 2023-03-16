@@ -1,5 +1,5 @@
-import ThreeApp from "../threejs/ThreeApp";
-import { useLayoutEffect } from "react";
+import ThreeApp from "../utils/ThreeApp";
+import renderer from "../utils/renderer";
 
 export default function Home() {
   return <ThreeApp />
